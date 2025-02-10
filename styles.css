@@ -701,11 +701,36 @@ main{
     height: 582px;  
 }
 
-.inspiration-bed {
+.inspiration-bedroom {
     position: relative;
     width: 404px;
     height: 582px; 
 }
+
+.inspiration-textbox{
+    position: absolute;
+    width: 217px;
+    height: 130px;
+    backdrop-filter: blur(32px);
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.inspiration-textbox p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;    
+}
+
+.inspiration-textbox h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #3A3A3A;
+}
+
 
 @media (max-width:767px) {
     main {
