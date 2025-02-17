@@ -1103,9 +1103,11 @@ footer {
 .shop-values {
     width: 100%;
     height: 270px;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    justify-content: space-between; 
     background: #FAF3EA;
 }
 
@@ -1122,6 +1124,13 @@ footer {
     .shop-btn-next button {
         width: 60px;
         height: 40px;
+    }
+
+    .shop-values {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 0 40px 0;
+        gap: 40px;
     }
 }
 
