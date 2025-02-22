@@ -2,474 +2,450 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>E-Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Funiro</title>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="header-logo">
-                <button class="header-menu-container" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
-                <a href="index.html"><img src="images/Furniro-logo.png" alt="HeaderLogo"></a>
-            </div>
-            <div class="header-menu">
-                <ul class="navbar-menu">
-                    <li class="text-link"><a href="index.html">Home</a></li>
-                    <li class="text-link"><a href="shop.html">Shop</a></li>
-                    <li class="text-link"><a href="about.html">About</a></li>
-                    <li class="text-link"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="header-icons ">
-                <div class="account-icon header-icon">
-                    <a href="">
-                        <img src="images/Account-icon.png" alt="AccountIcon">
-                    </a>
-                </div>
-                <div class="search-icon header-icon">
-                    <a href="">
-                        <img src="images/Search-icon.png" alt="SearchIcon">
-                    </a>
-                </div>
-                <div class="wishlist-icon header-icon">
-                    <a href="">
-                        <img src="images/Wishlist-icon.png" alt="WishlistIcon">
-                    </a>
-                </div>
-                <div class="microcart-icon header-icon">
-                    <a href="">
-                        <img src="images/Microcart-icon.png" alt="MicrocartIcon">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="search-container mt-2 border-b">
-            <form action="">
-                <input type="text" placeholder="Otsi..." name="search">                
-                    <button type="submit"><img src="images/Search-icon.png" alt="SearchIcon">
-                    </button>
-                </input>
-            </form>
-        </div>
-    </header>
-    <main>
-        <div class="main-container">
-            <div class="discover">
-                <div class="discover-container">
-                    <div class="discover-text-content">
-                        <h6>New Arrival</h6>
-                        <h1>Discover Our <br> New Collection</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
-                        <div class="discover-button">
-                            <a href="shop.html"><button>BUY NOW</button></a>
-                        </div>                
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <div class="header-body">
+                    <div class="header-logo">
+                        <button class="header-menu-container" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </button>
+                        <a href="index.html"><img src="images/Furniro-logo.png" alt="HeaderLogo"></a>
                     </div>
-                </div>
-            </div>
-            <div class="browse">
-                <div class="browse-text-content">
-                    <h2>Browse The Range</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="browse-items">
-                    <div class="browse-row">
-                        <div class="browse-item-1">
-                            <div class="browse-item">
-                                <img src="images/Dining-1.jpg" alt="">
-                            </div>
-                            <div class="browse-heading">
-                                <a href=""><h3>Dining</h3></a>
-                            </div>
+                    <div class="header-menu">
+                        <ul class="navbar-menu">
+                            <li class="text-link"><a href="index.html">Home</a></li>
+                            <li class="text-link"><a href="shop.html">Shop</a></li>
+                            <li class="text-link"><a href="about.html">About</a></li>
+                            <li class="text-link"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>       
+                    <div class="header-icons ">
+                        <div class="account-icon header-icon">
+                            <a href="">
+                                <img src="images/Account-icon.png" alt="AccountIcon">
+                            </a>
                         </div>
-                        <div class="browse-item-2">
-                            <div class="browse-item">
-                                <img src="images/Living-1.jpg" alt="">
-                            </div>
-                            <div class="browse-heading">
-                                <a href=""><h3>Living</h3></a>
-                            </div>
+                        <div class="search-icon header-icon">
+                            <a href="">
+                                <img src="images/Search-icon.png" alt="SearchIcon">
+                            </a>
                         </div>
-                        <div class="browse-item-3">
-                            <div class="browse-item">
-                                <img src="images/Bedroom-1.jpg" alt="">
-                            </div>
-                            <div class="browse-heading">
-                                <a href=""><h3>Bedroom</h3></a>
-                            </div>
+                        <div class="wishlist-icon header-icon">
+                            <a href="">
+                                <img src="images/Wishlist-icon.png" alt="WishlistIcon">
+                            </a>
+                        </div>
+                        <div class="microcart-icon header-icon">
+                            <a href="">
+                                <img src="images/Microcart-icon.png" alt="MicrocartIcon">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="products">
-                <h2>Our Products</h2>
-                <div class="products-row-1">
-                    <div class="products-item">
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+        </header>
+        <main>
+            <div class="main-wrapper">
+                <section class="main-discover">
+                    <div class="discover-container">
+                        <div class="discover-text-content">
+                            <div class="discover-text">
+                                <p>New Arrival</p>
+                                <h1>Discover Our <br> New Collection</h1>
+                                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</h6>
+                                <a href="shop.html" class="discover-btn">
+                                    <button>BUY NOW</button>
+                                </a>                                
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </section>
+                <section class="main-browse">
+                    <div class="browse-container">
+                        <div class="browse-text-content">
+                            <h2>Browse The Range</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="browse-items">
+                            <div class="browse-row">
+                                <div class="browse-item-1">
+                                    <div class="browse-item">
+                                        <img src="images/Dining-1.jpg" alt="">
+                                    </div>
+                                    <div class="browse-heading">
+                                        <a href="shop.html"><h3>Dining</h3></a>
+                                    </div>
+                                </div>
+                                <div class="browse-item-2">
+                                    <div class="browse-item">
+                                        <img src="images/Living-1.jpg" alt="">
+                                    </div>
+                                    <div class="browse-heading">
+                                        <a href="shop.html"><h3>Living</h3></a>
+                                    </div>
+                                </div>
+                                <div class="browse-item-3">
+                                    <div class="browse-item">
+                                        <img src="images/Bedroom-1.jpg" alt="">
+                                    </div>
+                                    <div class="browse-heading">
+                                        <a href="shop.html"><h3>Bedroom</h3></a>
+                                    </div>
                                 </div>
                             </div>
-                            <img src="images/Syltherine.jpg">
-                            <div class="products-item-text">
-                                <h6>Syltherine</h6>
-                                <p>Stylish cafe chair</p>
-                                <div class="product-price">
-                                    <h4>Rp 2.500.000</h4>
-                                    <p>Rp 3.500.000</p>
-                                </div>    
-                            </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="products-item">
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                </section>
+                <section class="main-products">
+                    <div class="products-container">
+                        <h2 class="products-header">Our Products</h2>
+                        <div class="products-items">
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Syltherine.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Syltherine</h2>
+                                    <p>Stylish cafe chair</p>
+                                    <div class="product-price">
+                                        <h4>Rp 2.500.000</h4>
+                                        <p>Rp 3.500.000</p>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Leviosa.jpg" style="width: 285px; height: auto;">
-                            <div class="products-item-text">
-                                <h6>Leviosa</h6>
-                                <p>Stylish cafe chair</p>
-                                <div class="product-price">
-                                    <h4>Rp 2.500.000</h4>
-                                </div>    
-                            </div>
-                        </a>
-                    </div>
-                    <div class="products-item">
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Leviosa.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Leviosa</h2>
+                                    <p>Stylish cafe chair</p>
+                                    <div class="product-price">
+                                        <h4>Rp 2.500.000</h4>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Lolito.jpg">
-                            <div class="products-item-text">
-                                <h6>Lolito</h6>
-                                <p>Luxury big sofa</p>
-                                <div class="product-price">
-                                    <h4>Rp 7.000.000</h4>
-                                    <p>Rp 14.000.000</p>
-                                </div>    
-                            </div>
-                        </a>
-                    </div>
-                    <div class="products-item">
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Lolito.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Lolito</h2>
+                                    <p>Luxury big sofa</p>
+                                    <div class="product-price">
+                                        <h4>Rp 7.000.000</h4>
+                                        <p>Rp 14.000.000</p>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Respira.jpg">
-                            <div class="products-item-text">
-                                <h6>Respira</h6>
-                                <p>Outdoor bar table and stool</p>
-                                <div class="product-price">
-                                    <h4>Rp 500.000</h4>
-                                </div>    
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="products-row-2">
-                    <div class="products-item">
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Respira.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Respira</h2>
+                                    <p>Outdoor bar table and stool</p>
+                                    <div class="product-price">
+                                        <h4>Rp 500.000</h4>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Grifo.jpg">
-                            <div class="products-item-text">
-                                <h6>Grifo</h6>
-                                <p>Night lamp</p>
-                                <div class="product-price">
-                                    <h4>Rp 1.500.000</h4>
-                                </div>    
-                            </div>
-                        </a>
-                    </div>
-                    <div class="products-item">                    
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Grifo.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Grifo</h2>
+                                    <p>Night lamp</p>
+                                    <div class="product-price">
+                                        <h4>Rp 1.500.000</h4>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Muggo.jpg">
-                            <div class="products-item-text">
-                                <h6>Muggo</h6>
-                                <p>Small mug</p>
-                                <div class="product-price">
-                                    <h4>Rp 150.000</h4>
-                                </div>    
-                            </div>
-                        </a>
-                    </div>
-                    <div class="products-item">                    
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Muggo.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Muggo</h2>
+                                    <p>Small mug</p>
+                                    <div class="product-price">
+                                        <h4>Rp 150.000</h4>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Pingky.jpg">
-                            <div class="products-item-text">
-                                <h6>Pingky</h6>
-                                <p>Cute bed set</p>
-                                <div class="product-price">
-                                    <h4>Rp 7.000.000</h4>
-                                    <p>Rp 14.000.000</p>
-                                </div>    
-                            </div>
-                        </a>
-                    </div>
-                    <div class="products-item">
-                        <a href="single-product.html">
-                            <div class="products-overlay">
-                                <button class="overlay-button">Add to Cart</button>
-                                <div class="overlay-interact-buttons">
-                                    <button>
-                                        <img src="images/Share-vector.png" alt="Share-vector">
-                                        Share
-                                    </button>
-                                    <button>
-                                        <img src="images/Compare-vector.png" alt="Compare-vector">
-                                        Compare</button>
-                                    <button>
-                                        <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
-                                        Like</button>
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Pingky.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Pingky</h2>
+                                    <p>Cute bed set</p>
+                                    <div class="product-price">
+                                        <h4>Rp 7.000.000</h4>
+                                        <p>Rp 14.000.000</p>
+                                    </div>    
                                 </div>
                             </div>
-                            <img src="images/Potty.jpg">
-                            <div class="products-item-text">
-                                <h6>Potty</h6>
-                                <p>Minimalist flower pot</p>
-                                <div class="product-price">
-                                    <h4>Rp 500.000</h4>
-                                </div>    
+                            <div class="products-item">
+                                <div class="products-overlay">
+                                    <button class="overlay-button">Add to Cart</button>
+                                    <div class="overlay-interact-buttons">
+                                        <button>
+                                            <img src="images/Share-vector.png" alt="Share-vector">
+                                            Share
+                                        </button>
+                                        <button>
+                                            <img src="images/Compare-vector.png" alt="Compare-vector">
+                                            Compare</button>
+                                        <button>
+                                            <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                            Like</button>
+                                    </div>
+                                </div>
+                                <a href="single-product.html" class="product-image">
+                                    <img src="images/Potty.jpg" alt="Product item">
+                                </a>
+                                <div class="product-item-text">
+                                    <h2>Potty</h2>
+                                    <p>Minimalist flower pot</p>
+                                    <div class="product-price">
+                                        <h4>Rp 500.000</h4>
+                                    </div>    
+                                </div>
                             </div>
-                        </a>
+                        </div>
+                        <div class="products-action">
+                            <a href="shop.html" class="products-button">
+                                <button class="show-more-btn">Show More</button>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="products-action">
-                    <a href="shop.html" class="products-button">
-                        <button class="show-more-btn">Show More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="inspiration">
-                <div class="inspiration-container">
-                    <div class="inspiration-text-content">
-                        <h2>50+ Beautiful rooms <br>
-                            inspiration</h2>
-                        <p>Our designer already made a lot of <br>
-                            beautiful prototipe of rooms that inspire you</p>
-                        <div class="explore-button">
-                            <a href="shop.html">
+                </section>
+                <section class="main-inspiration">
+                    <div class="inspiration-container">
+                        <div class="inspiration-text-content">
+                            <h2>50+ Beautiful rooms inspiration</h2>
+                            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                            <a href="shop.html" class="inspiration-btn">
                                 <button>Explore More</button>
                             </a>
-                        </div>  
-                    </div>    
-                    <div class="inspiration-products">
-                        <div class="inpiration-bedroom">
-                            <a href="shop.html">                           
-                                <img src="images/Inspiration-bedroom.jpg">
-                            </a>
                         </div>
-                        <div class="inspiration-slide">
-                            <div class="inspiration-product-list">
-                                <div class="inspiration-item">
-                                    <a href="single-product.html">
-                                        <img src="images/Inspiration_slide1.jpg">                                    
-                                    </a>
+                        <div class="inspiration-slider">
+                            <div class="inspiration-slides">
+                                <div class="inspiraton-slide">
+                                    <div class="inspiration-slide-image ibg">
+                                        <img src="images/bedroom.jpg" alt="slider">
+                                    </div>
+                                    <div class="slide-label">
+                                        <a href="#" class="inspiration-slider-text ">
+                                            <div class="slider-label">
+                                                <div class="slider-label-text"><p>01 — Bedroom</p></div>
+                                            </div>
+                                            <div class="slider-label-title"><h4>Inner Peace</h4></div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="slider-arrow">
+                                                <img src="images/slider-arrow.jpg" alt="">
+                                            </div>
+                                        </a>                                           
+                                    </div>
+                             
                                 </div>
-                                <div class="inspiration-item">
-                                    <a href="single-product.html">
-                                        <img src="images/Inspiration_slide2.jpg">
-                                    </a>
-                                </div>
-                            </div>
-                            <button type="button" data-role="none" class="right-arrow" style="display: block;">
-                                <img src="/images/Inspiration_rightArrow.png" alt="">
-                            </button>
-                            <div class="inspiration-nav-dots">
-                                <button role="button" class="owl-dot active"><span></span>
-                                </button>
-                                <button role="button" class="owl-dot active"><span></span>
-                                </button>
-                                <button role="button" class="owl-dot active"><span></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>            
-                </div>
-            </div>
-            <div class="furniture">
-                <div class="furniture-text-content">
-                    <p>Share your setup with</p>
-                    <h4>#FuniroFurniture</h4>
-                </div>
-                <div class="furniture-items">
-
-                </div>
-            </div>            
-        </div>
-
-    </main>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <a href="index.html">
-                        <h6>Funiro.</h6>
-                    </a>
-                    <p>400 University Drive Suite 200 Coral <br>
-                        Gables, <br>
-                        FL 33134 USA</p>
-                </div>
-                <div class="footer-column">
-                    <div class="footer-column-items">
-                        <div class="footer-links footer-item">
-                            <div class="footer-item-header">
-                                <h6>Links</h6>
-                            </div>
-                            <div class="footer-links-items">
-                                <ul class="footer-links-items footer-items">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">Shop</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>                                
-                            </div>
-                        </div>
-                        <div class="footer-help footer-item">
-                            <div class="footer-item-header">
-                                <h6>Help</h6>
-                            </div>
-                            <div class="footer-help-items">
-                                <ul class="footer-help-items footer-items">
-                                    <li>
-                                        <a href="">Paymeny Options</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Returns</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Privacy Policy</a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="footer-newsletter footer-item">
-                        <div class="footer-item-header">
-                            <h6>Newsletter</h6>
+                </section>
+                <section class="main-furniture"></section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <a href="index.html">
+                            <h6>Funiro.</h6>
+                        </a>
+                        <p>400 University Drive Suite 200 Coral <br>
+                            Gables, <br>
+                            FL 33134 USA</p>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-items">
+                            <div class="footer-links footer-item">
+                                <div class="footer-item-header">
+                                    <h6>Links</h6>
+                                </div>
+                                <div class="footer-links-items">
+                                    <ul class="footer-links-items footer-items">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop.html">Shop</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>                                
+                                </div>
+                            </div>
+                            <div class="footer-help footer-item">
+                                <div class="footer-item-header">
+                                    <h6>Help</h6>
+                                </div>
+                                <div class="footer-help-items">
+                                    <ul class="footer-help-items footer-items">
+                                        <li>
+                                            <a href="">Paymeny Options</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Returns</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="newletter-input">
-                            <form action="">
-                                <input type="text" placeholder="Enter Your Email Address" name="search">                
-                                    <button type="submit" class="newletter-button">SUBSCRIBE</button>
-                                </input>
-                            </form>
+                        <div class="footer-newsletter footer-item">
+                            <div class="footer-item-header">
+                                <h6>Newsletter</h6>
+                            </div>
+                            <div class="newletter-input">
+                                <form action="">
+                                    <input type="text" placeholder="Enter Your Email Address" name="search">                
+                                        <button type="submit" class="newletter-button">SUBSCRIBE</button>
+                                    </input>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="furniro-rights">
+                    <p>2023 furino. All rights reverved</p>
+                </div>
             </div>
-            <div class="furniro-rights">
-                <p>2023 furino. All rights reverved</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
