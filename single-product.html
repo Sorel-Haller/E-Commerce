@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-body">
+                <div class="header-logo">
+                    <button class="header-menu-container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
+                    <a href="index.html" class="big-logo"><img src="images/Furniro-logo.png" alt="HeaderLogo"></a>
+                    <a href="index.html" class="mini-logo"><img src="images/Mini-logo.png" alt="HeaderLogo"></a>
+                </div>
+                <div class="header-menu">
+                    <ul class="navbar-menu">
+                        <li class="text-link"><a href="index.html">Home</a></li>
+                        <li class="text-link"><a href="shop.html">Shop</a></li>
+                        <li class="text-link"><a href="about.html">About</a></li>
+                        <li class="text-link"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>       
+                <div class="header-icons ">
+                    <div class="account-icon header-icon">
+                        <a href="">
+                            <img src="images/Account-icon.png" alt="AccountIcon">
+                        </a>
+                    </div>
+                    <div class="search-icon header-icon">
+                        <a href="">
+                            <img src="images/Search-icon.png" alt="SearchIcon">
+                        </a>
+                    </div>
+                    <div class="wishlist-icon header-icon">
+                        <a href="">
+                            <img src="images/Wishlist-icon.png" alt="WishlistIcon">
+                        </a>
+                    </div>
+                    <div class="microcart-icon header-icon">
+                        <a href="">
+                            <img src="images/Microcart-icon.png" alt="MicrocartIcon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-container mt-2 border-b">
+            <form action="">
+                <input type="text" placeholder="Otsi..." name="search">                
+                    <button type="submit"><img src="images/Search-icon.png" alt="SearchIcon">
+                    </button>
+                </input>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="product-description">
+            <div class="description-text">
+                <div class="description-tabs">
+                    <span class="description-tab active-tab">Description</span>
+                    <span class="description-tab">Additional Information</span>
+                    <span class="description-tab">Reviews [5]</span>
+                </div>
+                <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+                <p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+            </div>
+            <div class="description-images">
+                <img src="images/Description-image-1.jpg" alt="image">
+                <img src="images/Description-image-2.jpg" alt="image">
+            </div>
+        </div>
+        <div class="related-products">
+            <h3>Related Products</h3>
+            <div class="related-product-items">
+                <div class="products-item">
+                    <a href="single-product.html">
+                        <div class="products-overlay">
+                            <button class="overlay-button">Add to Cart</button>
+                            <div class="overlay-interact-buttons">
+                                <button>
+                                    <img src="images/Share-vector.png" alt="Share-vector">
+                                    Share
+                                </button>
+                                <button>
+                                    <img src="images/Compare-vector.png" alt="Compare-vector">
+                                    Compare</button>
+                                <button>
+                                    <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                    Like</button>
+                            </div>
+                        </div>
+                        <div class="product-image related-product-image">
+                            <img src="images/Syltherine.jpg" alt="Product item">
+                        </div>
+                        <div class="product-item-text">
+                            <h2>Syltherine</h2>
+                            <p>Stylish cafe chair</p>
+                            <div class="product-price">
+                                <h4>Rp 2.500.000</h4>
+                                <p>Rp 3.500.000</p>
+                            </div>    
+                        </div>                                    
+                    </a>
+                </div>
+                <div class="products-item">
+                    <a href="single-product.html">
+                        <div class="products-overlay">
+                            <button class="overlay-button">Add to Cart</button>
+                            <div class="overlay-interact-buttons">
+                                <button>
+                                    <img src="images/Share-vector.png" alt="Share-vector">
+                                    Share
+                                </button>
+                                <button>
+                                    <img src="images/Compare-vector.png" alt="Compare-vector">
+                                    Compare</button>
+                                <button>
+                                    <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                    Like</button>
+                            </div>
+                        </div>
+                        <div class="product-image related-product-image">
+                            <img src="images/Leviosa.jpg" alt="Product item">
+                        </div>
+                        <div class="product-item-text">
+                            <h2>Leviosa</h2>
+                            <p>Stylish cafe chair</p>
+                            <div class="product-price">
+                                <h4>Rp 2.500.000</h4>
+                            </div>    
+                        </div>                                    
+                    </a>
+                </div>
+                <div class="products-item">
+                    <a href="single-product.html">
+                        <div class="products-overlay">
+                            <button class="overlay-button">Add to Cart</button>
+                            <div class="overlay-interact-buttons">
+                                <button>
+                                    <img src="images/Share-vector.png" alt="Share-vector">
+                                    Share
+                                </button>
+                                <button>
+                                    <img src="images/Compare-vector.png" alt="Compare-vector">
+                                    Compare</button>
+                                <button>
+                                    <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                    Like</button>
+                            </div>
+                        </div>
+                        <div class="product-image related-product-image">
+                            <img src="images/Lolito.jpg" alt="Product item">
+                        </div>
+                        <div class="product-item-text">
+                            <h2>Lolito</h2>
+                            <p>Luxury big sofa</p>
+                            <div class="product-price">
+                                <h4>Rp 7.000.000</h4>
+                                <p>Rp 14.000.000</p>
+                            </div>    
+                        </div>
+                    </a>
+                </div>
+                <div class="products-item">
+                    <a href="single-product.html">
+                        <div class="products-overlay">
+                            <button class="overlay-button">Add to Cart</button>
+                            <div class="overlay-interact-buttons">
+                                <button>
+                                    <img src="images/Share-vector.png" alt="Share-vector">
+                                    Share
+                                </button>
+                                <button>
+                                    <img src="images/Compare-vector.png" alt="Compare-vector">
+                                    Compare</button>
+                                <button>
+                                    <img src="images/Like-vector.png" alt="Like-vector" class="pt-1">
+                                    Like</button>
+                            </div>
+                        </div>
+                        <div class="product-image related-product-image
+                        ">
+                            <img src="images/Respira.jpg" alt="Product item">
+                        </div>
+                        <div class="product-item-text">
+                            <h2>Respira</h2>
+                            <p>Outdoor bar table and stool</p>
+                            <div class="product-price">
+                                <h4>Rp 500.000</h4>
+                            </div>    
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="products-action">
+                <a href="shop.html" class="products-button">
+                    <button class="show-more-btn">Show More</button>
+                </a>
+            </div>            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <a href="index.html">
+                        <h6>Funiro.</h6>
+                    </a>
+                    <p>400 University Drive Suite 200 Coral <br>
+                        Gables, <br>
+                        FL 33134 USA</p>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-column-items">
+                        <div class="footer-links footer-item">
+                            <div class="footer-item-header">
+                                <h6>Links</h6>
+                            </div>
+                            <div class="footer-links-items">
+                                <ul class="footer-links-items footer-items">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="footer-help footer-item">
+                            <div class="footer-item-header">
+                                <h6>Help</h6>
+                            </div>
+                            <div class="footer-help-items">
+                                <ul class="footer-help-items footer-items">
+                                    <li>
+                                        <a href="">Paymeny Options</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Returns</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-newsletter footer-item">
+                        <div class="footer-item-header">
+                            <h6>Newsletter</h6>
+                        </div>
+                        <div class="newletter-input">
+                            <form action="">
+                                <input type="text" placeholder="Enter Your Email Address" name="search">                
+                                    <button type="submit" class="newletter-button">SUBSCRIBE</button>
+                                </input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="furniro-rights">
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
