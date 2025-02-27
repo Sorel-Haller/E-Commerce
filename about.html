@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-body">
+                <div class="header-logo">
+                    <button class="header-menu-container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
+                    <a href="index.html" class="big-logo"><img src="images/Furniro-logo.png" alt="HeaderLogo"></a>
+                    <a href="index.html" class="mini-logo"><img src="images/Mini-logo.png" alt="HeaderLogo"></a>
+                </div>
+                <div class="header-menu">
+                    <ul class="navbar-menu">
+                        <li class="text-link"><a href="index.html">Home</a></li>
+                        <li class="text-link"><a href="shop.html">Shop</a></li>
+                        <li class="text-link"><a href="about.html">About</a></li>
+                        <li class="text-link"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>       
+                <div class="header-icons ">
+                    <div class="account-icon header-icon">
+                        <a href="">
+                            <img src="images/Account-icon.png" alt="AccountIcon">
+                        </a>
+                    </div>
+                    <div class="search-icon header-icon">
+                        <a href="">
+                            <img src="images/Search-icon.png" alt="SearchIcon">
+                        </a>
+                    </div>
+                    <div class="wishlist-icon header-icon">
+                        <a href="">
+                            <img src="images/Wishlist-icon.png" alt="WishlistIcon">
+                        </a>
+                    </div>
+                    <div class="microcart-icon header-icon">
+                        <a href="">
+                            <img src="images/Microcart-icon.png" alt="MicrocartIcon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-container mt-2 border-b">
+            <form action="">
+                <input type="text" placeholder="Otsi..." name="search">                
+                    <button type="submit"><img src="images/Search-icon.png" alt="SearchIcon">
+                    </button>
+                </input>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="page-heading">
+            <img src="images/shop_header.jpg" alt="page-heading">
+            <div class="page-text">
+                <a href="shop.html">
+                    Blog
+                    <p>Home > Blog</p>     
+                </a>
+            </div>
+        </div>
+        <div class="blog-container">
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <img src="images/Millenial-design-image.jpg" alt="">
+                    <div class="blog-tags">
+                        <div class="admin-tag blog-tag">
+                            <img src="images/Admin-icon.png" alt="Admin icon">
+                            <p>Admin</p>
+                        </div>
+                        <div class="calender-tag blog-tag">
+                            <img src="images/Calender-icon.png" alt="Calender icon">
+                            <p>14 Oct 2022</p>
+                        </div>
+                        <div class="category-tag blog-tag">
+                            <img src="images/Tag-icon.png" alt="Tag icon">
+                            <p>Wood</p>
+                        </div>
+                    </div>
+                    <div class="blog-text-container">
+                        <h3>Going all-in with millennial design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin 
+                            aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis 
+                            in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit 
+                            ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+                    </div>
+                    <button class="read-more-btn" onclick="window.location.href='#';">Read more</button>
+                </div>
+                <div class="blog-post">
+                    <img src="images/Decorating-image.jpg" alt="Blog image">
+                    <div class="blog-tags">
+                        <div class="admin-tag blog-tag">
+                            <img src="images/Admin-icon.png" alt="Admin icon">
+                            <p>Admin</p>
+                        </div>
+                        <div class="calender-tag blog-tag">
+                            <img src="images/Calender-icon.png" alt="Calender icon">
+                            <p>14 Oct 2022</p>
+                        </div>
+                        <div class="category-tag blog-tag">
+                            <img src="images/Tag-icon.png" alt="Tag icon">
+                            <p>Handmade</p>
+                        </div>
+                    </div>
+                    <div class="blog-text-container">
+                        <h3>Exploring new ways of decorating</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin
+                            aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis
+                            in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
+                            ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+                    </div>
+                    <button>Read more</button>
+                </div>
+                <div class="blog-post">
+                    <img src="images/Handmade-image.jpg" alt="Blog image">
+                    <div class="blog-tags">
+                        <div class="admin-tag blog-tag">
+                            <img src="images/Admin-icon.png" alt="Admin icon">
+                            <p>Admin</p>
+                        </div>
+                        <div class="calender-tag blog-tag">
+                            <img src="images/Calender-icon.png" alt="Calender icon">
+                            <p>14 Oct 2022</p>
+                        </div>
+                        <div class="category-tag blog-tag">
+                            <img src="images/Tag-icon.png" alt="Tag icon">
+                            <p>Wood</p>
+                        </div>
+                    </div>
+                    <div class="blog-text-container">
+                        <h3>Handmade pieces that took time to make</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin 
+                            aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis 
+                            in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
+                            ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+                    </div>
+                    <button>Read more</button>
+                </div>
+              
+            </div>
+            <div class="blog-items">
+                <div class="search-bar">
+                    <form action="/search">
+                        <input type="text" name="query"/>
+                        <img src="images/Search-bar-icon.png" alt="Search icon">
+                    </form>                      
+                </div>
+                <div class="blog-categories">
+                    <ul class="blog-categories-items">
+                        <h4>Categories</h4>
+                        <li>
+                            <a href="#">
+                                Crafts <span>2</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Design <span>8</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Handmade <span>7</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Interior <span>1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Wood <span>6</span>
+                            </a>
+                        </li>
+                    </ul>  
+                </div>
+                <div class="blog-recent-posts">
+                    <ul class="recent-post-items">
+                        <h4>Recent Posts</h4>
+                        <li>
+                            <a href="#">
+                                <img src="images/Recent-post-1.jpg" alt="Recent post">
+                                <div class="recent-post-text">
+                                    <h6>Going all-in with <br> millennial design</h6>
+                                    <p>03 Aug 2022</p>                                    
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/Recent-post-2.jpg" alt="Recent post">
+                                <div class="recent-post-text">
+                                    <h6>Exploring new ways <br> of decorating</h6>
+                                    <p>03 Aug 2022</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/Recent-post-3.jpg" alt="Recent post">
+                                <div class="recent-post-text">
+                                    <h6>Handmade pieces <br> that took time to make</h6>
+                                    <p>03 Aug 2022</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/Recent-post-4.jpg" alt="Recent post">
+                                <div class="recent-post-text">
+                                    <h6>Modern home in <br> Milan</h6>
+                                    <p>03 Aug 2022</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/Recent-post-5.jpg" alt="Recent post">
+                                <div class="recent-post-text">
+                                    <h6>Colorful office <br> redesign</h6>
+                                    <p>03 Aug 2022</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+        <div class="blog-product-pagination">
+            <nav class="pagination">
+                <span class="pagination-item">1</span>
+                <a href="#" class="pagination-item">2</a>
+                <a href="#" class="pagination-item">3</a>
+                <div class="pagination-item pagination-item-next">
+                    <a href="#">Next</a>
+                </div>
+            </nav>
+            </div>        
+        <div class="advantages">
+            <div class="advantage-items">
+                <div class="advantage-item">
+                    <div class="advantage-icon">
+                        <img src="images/Quality-icon.png" alt="">
+                    </div>
+                    <div class="advantage-title">
+                        <h4>High Quality</h4>
+                        <p>crafted from top materials</p>                        
+                    </div>
+
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">
+                        <img src="images/Warranty-icon.png" alt="">
+                    </div>
+                    <div class="advantage-title">
+                        <h4>Warranty Protection</h4>
+                        <p>Over 2 years</p>                        
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">
+                        <img src="images/Shipping-icon.png" alt="">
+                    </div>
+                    <div class="advantage-title">
+                        <h4>Free Shipping</h4>
+                        <p>Order over 150 $</p>                        
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">
+                        <img src="images/Customer-support-icon.png" alt="">
+                    </div>
+                    <div class="advantage-title">
+                        <h4>24 / 7 Support</h4>
+                        <p>Dedicated support</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <a href="index.html">
+                        <h6>Funiro.</h6>
+                    </a>
+                    <p>400 University Drive Suite 200 Coral <br>
+                        Gables, <br>
+                        FL 33134 USA</p>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-column-items">
+                        <div class="footer-links footer-item">
+                            <div class="footer-item-header">
+                                <h6>Links</h6>
+                            </div>
+                            <div class="footer-links-items">
+                                <ul class="footer-links-items footer-items">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="footer-help footer-item">
+                            <div class="footer-item-header">
+                                <h6>Help</h6>
+                            </div>
+                            <div class="footer-help-items">
+                                <ul class="footer-help-items footer-items">
+                                    <li>
+                                        <a href="">Paymeny Options</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Returns</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-newsletter footer-item">
+                        <div class="footer-item-header">
+                            <h6>Newsletter</h6>
+                        </div>
+                        <div class="newletter-input">
+                            <form action="">
+                                <input type="text" placeholder="Enter Your Email Address" name="search">                
+                                    <button type="submit" class="newletter-button">SUBSCRIBE</button>
+                                </input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="furniro-rights">
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
