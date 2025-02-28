@@ -1,19 +1,16 @@
 /* Header dropdown */
-function myFunction(x) {
-    x.classList.toggle("change");
-  }
 
-  function changeMainImage(thumbnail, labelText, labelTitle) {
-    document.getElementById('main-image').src = thumbnail.src;
+
+ function changeMainImage(thumbnail, labelText, labelTitle) {
+  document.getElementById('main-image').src = thumbnail.src;
     
-    document.getElementById('label-text').textContent = labelText;
+  document.getElementById('label-text').textContent = labelText;
     
-    document.getElementById('label-title').textContent = labelTitle;
+  document.getElementById('label-title').textContent = labelTitle;
 }
 
 function myFunction() {
   let dropdown = document.querySelector(".dropdown-content");
-  // Toggle the dropdown visibility
   dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
 }
 
