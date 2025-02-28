@@ -1343,7 +1343,6 @@ footer {
 .contact-form-container input[type=text], textarea {
     width: 530px;
     height: 60px;
-    padding-left: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
@@ -1351,6 +1350,11 @@ footer {
     margin-top: 6px;
     margin-bottom: 16px;
   }
+
+.contact-form-container input[type=text], ::placeholder {
+    padding-left: 10px;
+}
+
 
 .message {
     height: 100px;
