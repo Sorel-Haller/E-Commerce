@@ -450,6 +450,7 @@ header {
 }
 
 .products-item {
+    position: relative;
     align-self: center;
     background: #F4F5F7;
     width: 285px;
@@ -493,6 +494,13 @@ header {
     font-size: 16px;
     line-height: 24px;
     color: #898989;    
+}
+
+.sale-tag {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    z-index: 2;
 }
 
 .product-price {
