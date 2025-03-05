@@ -42,6 +42,11 @@ function currentSlide(index) {
     showSlide(slideIndex);
 }
 
+const nextSlide = () => {
+    slideIndex = (slideIndex + 1) % document.querySelectorAll('.inspiraton-slide').length;
+    showSlide(slideIndex);
+};
+
 window.onload = function() {
     currentSlide(1);
 }
