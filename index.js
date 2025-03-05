@@ -1,6 +1,4 @@
 /* Header dropdown */
-
-
  function changeMainImage(thumbnail, labelText, labelTitle) {
   document.getElementById('main-image').src = thumbnail.src;
     
@@ -14,30 +12,36 @@ function myFunction() {
   dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
 }
 
-
 /* Inspiration slides */
+let slideIndex = 0;
 
-let slideIndex = 1;
+function hideAllElements() {
+    const slides = document.querySelectorAll('.inspiraton-slide');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    const dots = document.querySelectorAll('.dot');
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
+    slides.forEach(slide => slide.style.display = 'none');
+    thumbnails.forEach(thumbnail => thumbnail.style.display = 'none');
+    dots.forEach(dot => dot.classList.remove('active'));
 }
 
-function showSlides(n) {
-    let slides = document.getElementsByClassName("thumbnail");
-    let dots = document.getElementsByClassName("dot");
-    
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
+function showSlide(index) {
+    const slides = document.querySelectorAll('.inspiraton-slide');
+    const dots = document.querySelectorAll('.dot');
+    const thumbnails = document.querySelectorAll('.thumbnail');
 
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex + 0].className += " active";
+    hideAllElements();
+
+    slides[index].style.display = 'block';
+    thumbnails[index].style.display = 'block'; 
+    dots[index].classList.add('active');
 }
 
-showSlides(slideIndex);
+function currentSlide(index) {
+    slideIndex = index - 1; 
+    showSlide(slideIndex);
+}
 
+window.onload = function() {
+    currentSlide(1);
+}
